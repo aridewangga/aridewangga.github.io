@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@100;200;400&family=Inika&family=Italiana&family=Italianno&family=Julius+Sans+One&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* css brand dan logo */
+.brand span{
+    margin-left: ;
+    color: black;
+    text-decoration: none;
+}
+.brand li,a{
+    font-family: 'Italianno', kursif;
+    padding: 10px;
+    font-weight: 400;
+    font-size: 45px;
+    color: black;
+    text-decoration: none;
+}
+.brand li {
+    margin-left: 35px;
+    padding: 100px;
+    font-family: 'Italianno', kursif;
+}
+.brand i{
+    margin-left: 300px;
+    font-size: 30px;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5%;
+    background-color: #de7422;
+}
+.brand{
+    list-style: none;
+}
+.brand li{
+    display: inline-block;
+    padding: 5px;
+}
+.brand li a:hover{
+    color:white;
+}
+/* Jumbotron */
+.jumbotron{
+    height: 620px;
+    margin-top: 0;
+    font-family: 'Inika', serif;
+    background-image: url('images/tanah lot.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+}
+.text-brand{
+    margin-left: 23px;
+    padding: 130px;
+    color: white;
+}
+.text-brand h1{
+    font-size: 50px;
+    font-family: 'Julius Sans One', sans-serif;
+    font-weight: 100;
+    text-shadow: 10px 10px 5px black;
+}
+.text-brand p{
+    font-family: 'Italianno',kursif;
+    font-size: 70px;
+    font-weight: 150;
+    color: white;
+}
+.btn-jelajahi{
+    width: 135px;
+    height: 50px;
+    background-color: #cb991a;
+    text-align: center;
+    padding: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-jelajahi:hover{
+    background-color: #54e346;
+}
+.btn-jelajahi a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+.btn-video{
+    width: 135px;
+    height: 50px;
+    background-color: #fec703;
+    text-align: center;
+    padding: 14px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 25px;
+    box-shadow: 2px 2px 5px black;
+}
+.btn-video:hover{
+    background-color: green;
+}
+.btn-video a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Julius Sans One', sans-serif;
+    color: white;
+}
+/* Konten */
+.objekwisata{
+    height: 800px;
+    margin: 5px;
+    padding: 10px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+    column-count: 2;
+        -moz-column-count: 2;
+            -webkit-column-count: 2;
+        column-gap: 20px;
+        -webkit-column-gap: 20px;
+        border: 1px solid #ccc;
+}
+.objekwisata .gambarobjek1{
+    width: 100%;
+    height: auto;
+    border: 10px solid white;
+    border-radius: 10px;
+}
+.isi h1{
+    font-size: 70px;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-weight: 100;   
+}
+.isi p{
+    font-family: 'Inika', serif;
+    font-size: 20px;
+    font-weight: 200;
+    color: white;
+    text-align:justify;
+    padding: 10px;
+}
+/* Foto */
+.foto2{
+    width: 10000x;
+    height: 1060px;
+    margin: 5px;
+    padding: 10px;
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position-y: -100px;
+}
+.images .tnh1{
+    width: 33%;
+    height: 18%;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.images .tnh2{
+    width: 25%;
+    height: 10%;
+    margin-top: -1000px;
+    margin-bottom: 640px;
+    margin-left: 65px;
+    margin-right: 100px;
+    
+}
+.images .tnh3{
+    width: 30%;
+    height: 15%;
+    margin-left: 457px;
+    margin-bottom: 380px;
+    margin-top: -650px;
+    margin-right: 220px;
+    
+}
+.images .tnh4{
+    width: 30%;
+    height: 15%;
+    margin-top: -1000px;
+    margin-right: 300px;
+    margin-left: 880px;
+    margin-bottom: 80px;
+    
+}
+.foto2 h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: 'Italiana', serif;
+    font-weight: 100x;
+}
+.foto2 .tnh5{
+    width: 30%;
+    height: 15%;
+    margin-top: -500px;
+    margin-bottom: 120px;
+    margin-right: 150px;
+    margin-left: 468px;
+
+}
+.foto2 .tnh6{
+    width: 30%;
+    height: 15%;
+    margin-left: 880px;
+    margin-top: -2000px;
+    margin-bottom: 385px;
+}
+.destination{
+    margin: 5px;
+    padding-top: 10px;
+    background-image: url(images/background.jpg);
+    -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-gap: 20px;
+        -moz-column-gap: 20px;
+        border: 5px solid wheat;
+}
+.destination .picture1{
+    width: 100%;
+    height:auto;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-left:5px;
+}
+.destination .picture2{
+    width: 100%;
+    height:auto;
+    border:2px solid white;
+    border-radius: 5px;
+    margin-left:-5px;
+}
+.destination .isian h2{
+    font-size: 40px;
+    font-family: 'Italianno',kursif;
+    font-weight: 100;
+    text-align: center;
+}
+.destination .isian p{
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Inika',serif;
+}
+/* Fasilitas */
+.kolom{
+    margin: 25px;
+    padding: 10px;
+    background-image: url(images/background.jpg);
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px;
+    border: 5px solid wheat;
+}
+.card{
+    box-shadow: 0 10px 5px 0 rgba( 0, 0, 0, 0.2);
+    max-width: 1000px;
+    text-align: center;
+    font-family: 'Italiana', serif;
+
+}
+.card .price{
+    color: white;
+    font-size: 25px;
+}
+.card button{
+    border: none;
+    outline: 0;
+    padding: 10px;
+    color: white;
+    background-color: #90afc5;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+.card button:hover{
+    opacity: 0.7;
+}
+/* kotak pesan */
+.Kotak-pesan{
+    margin: 5px;
+    padding: 10px;
+    background-image: url(images/background.jpg);
+    column-count: 2;
+    -moz-column-count: 2;
+    -webkit-column-count: 2;
+    column-gap: 20px;
+    -moz-column-gap: 20px;
+    -webkit-column-gap: 20px ;
+    border: 5px solid wheat;
+}
+.form{
+    position: center;
+    margin: 10px;
+    padding: 40px;
+    background-color: #90afc5;
+    width: 600px;
+    height: 400px;
+}
+.form .nama, .email, .hari, .pesan, .tombol{
+    width: 100%;
+    height: 40px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.form .tombol{
+    border-radius: 10px;
+    padding: 1px 10px 10px;
+    text-align: center;
+    text-decoration-style: bold;
+    background-color: #fff338;
+}
+.form h3{
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+.form .pesan{
+    height: 60px;
+}
+/* footer */
+footer{
+    margin: 0;
+    padding: 10px;
+    background-color: #90afc5;
+    column-count: 3;
+    -moz-column-count: 3;
+    -webkit-column-count: 3;
+    column-gap: 40px;
+    -moz-column-gap: 40px;
+    -webkit-column-gap: 40px;
+    border: 1px solid  #ccc;
+}
+footer p{
+    text-align: justify;
+    font-size: 20px;
+    color: white;
+}
+footer ul li{
+    text-decoration: none;
+    list-style: none;
+    font-size: 10px;
+}
